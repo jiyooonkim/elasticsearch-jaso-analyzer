@@ -1,11 +1,11 @@
 apply plugin: 'java'
 
 compileJava {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
-version = '8.6.2'
+version = '8.12.1'
 jar {
     manifest {
         attributes 'Implementation-Title': 'Elasticsearch Jaso Analyzer Plugin',
